@@ -24,40 +24,34 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 
 <ul>
   <li>Faz uma pesquisa na API no opentdb e no gravatar e renderiza a fim de montar um game.</li><br>
-  <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
-  <li>Search
+  <li>Caso acerte mais de 3 perguntas, receberá um feedback positivo, caso contrário um feedback construtivo, no final, pode jogar denovo ou ir para a tela de ranking de jogadores.</li><br>
+  <li>Login
     <ul>
-      <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
-      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
+      <li>Faz um crivo de formato no email, e nome</li>  
+      <li>O nome fica salvo no Ranking</li> 
     </ul><br>
   </li>
   
-  <li>Product Details
+  <li>Game
     <ul>
-      <li>Pode ser acessado através do Search, clicando na imagem do produto.</li>  
-      <li>Pode adicionar ao carrinho uma vez e deixar um comentário.</li> 
+      <li>Renderiza uma pergunta com apenas uma possivel resposta, caso acerte será calculado a pontuação pelo tempo</li>  
+      <li>O tempo pode acabar e o jogador não recebera pontos</li> 
     </ul><br>
   </li>
   
-  <li>Toogle Shopping Cart
+  <li>Feedback
     <ul>
-      <li>Mostra os produtos adicionados ao carrinho, o usuário pode adicionar ou diminuir a quantidade, caso seja 0 o produto saírá da lista.</li>  
-      <li>O usuário pode acessar a tela de Checkout pelo botão Finalizar Compra</li> 
+      <li>Renderiza a quantidade de pontos e acertos do usuário</li>  
+      <li>O usuário pode jogar denovo ou ir para o Ranking</li> 
     </ul><br>
   
-   <li>Checkout
+   <li>Ranking
     <ul>
       <li>
-        Mostra os produtos adicionados ao carrinho, o usuário deve preencher com suas informações e forma de pagamento para conseguir acessar a proxima tela.           </li>  
+        Renderiza o nome a pontuação e o perfil de todos os jogadores por ordem decrescente
+      </li>  
     </ul><br>
   </li>
-  
-   <li>Confirmation
-    <ul>
-      <li>Mostra as informações principais da compra para a confirmação do usuário.</li>  
-    </ul><br>
-  </li>
-</ul>
 
 ## Pré Requisitos
 <ul>
