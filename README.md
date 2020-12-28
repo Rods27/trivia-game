@@ -1,10 +1,10 @@
 # Frontend-Online-Store
-<img align ="left" src="/src/img/app-images/app-1.png" width="400" alt="imagem-1" />
-<img align ="center" src="/src/img/app-images/app-2.png" width="400" alt="imagem-2"/>
-<img align ="left" src="/src/img/app-images/app-3.png" width="400" alt="imagem-3" />
-<img align ="center" src="/src/img/app-images/app-4.png" width="400" alt="imagem-4"/>
+<img align ="left" src="/src/img/app-image/app-image1.png" width="400" alt="imagem-1" />
+<img align ="center" src="/src/img/app-image/app-image2.png" width="400" alt="imagem-2"/>
+<img align ="left" src="/src/img/app-image/app-image3.png" width="400" alt="imagem-3" />
+<img align ="center" src="/src/img/app-image/app-image4.png" width="400" alt="imagem-4"/>
 
-Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images/">aqui.</a>
+Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-image/">aqui.</a>
 
 ## Feedback 
 
