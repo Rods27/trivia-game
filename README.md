@@ -1,4 +1,4 @@
-# Frontend-Online-Store
+# Trivia-Game
 <img align ="left" src="/src/img/app-image/app-image1.png" width="400" alt="imagem-1" />
 <img align ="center" src="/src/img/app-image/app-image2.png" width="400" alt="imagem-2"/>
 <img align ="left" src="/src/img/app-image/app-image3.png" width="400" alt="imagem-3" />
@@ -15,16 +15,15 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
 ## Observações
 
 <ul>
-  <li>Não tem tela de Login</li>
-  <li>Os formulários são apenas por questão de layout</li>
-  <li>O crivo na tela de Checkout é simples, já que o critério por enquanto, não é segurança.</li>
-  <li>Não implementado mobile.</li>
+  <li>Os Settings ainda não foi implementado, o botão é por questão de layout</li>
+  <li>A ordem das perguntas está a mesma, não tive tempo de arrumar isso</li>
+  <li>Mobile não Implementado</li>
 </ul>
 
 ## Funcionalidades
 
 <ul>
-  <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li><br>
+  <li>Faz uma pesquisa na API no opentdb e no gravatar e renderiza a fim de montar um game.</li><br>
   <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
   <li>Search
     <ul>
