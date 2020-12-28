@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Frontend-Online-Store
+<img align ="left" src="/src/img/app-images/app-1.png" width="400" alt="imagem-1" />
+<img align ="center" src="/src/img/app-images/app-2.png" width="400" alt="imagem-2"/>
+<img align ="left" src="/src/img/app-images/app-3.png" width="400" alt="imagem-3" />
+<img align ="center" src="/src/img/app-images/app-4.png" width="400" alt="imagem-4"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-images/">aqui.</a>
 
-## Available Scripts
+## Feedback 
 
-In the project directory, you can run:
+Ficarei bem agradecido caso queira me dar um feedback costrutivo, caso queira meus contatos estarão abaixo!
 
-### `npm start`
+Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27">Linkedin</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Observações
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+  <li>Não tem tela de Login</li>
+  <li>Os formulários são apenas por questão de layout</li>
+  <li>O crivo na tela de Checkout é simples, já que o critério por enquanto, não é segurança.</li>
+  <li>Não implementado mobile.</li>
+</ul>
 
-### `npm test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+  <li>Faz uma pesquisa na API do Mercado Livre e filtra produtos de acordo com a pesquisa e a categoria (Games, Celulares, Veículos, Imóveis e etc..).</li><br>
+  <li>Ao pesquisar, aparecerá uma lista de no máximo 50 resultados onde aparecerão apenas 2 linhas com 6 produtos cada e o usuário poderá controlar com os botões Up e Down</li><br>
+  <li>Search
+    <ul>
+      <li>Pesquisa produtos de acordo com a categoria ou a query digitada na barra de buscas.</li>  
+      <li>Lista os produtos e o usuário pode adicoina-los ao carrinho uma vez.</li> 
+    </ul><br>
+  </li>
+  
+  <li>Product Details
+    <ul>
+      <li>Pode ser acessado através do Search, clicando na imagem do produto.</li>  
+      <li>Pode adicionar ao carrinho uma vez e deixar um comentário.</li> 
+    </ul><br>
+  </li>
+  
+  <li>Toogle Shopping Cart
+    <ul>
+      <li>Mostra os produtos adicionados ao carrinho, o usuário pode adicionar ou diminuir a quantidade, caso seja 0 o produto saírá da lista.</li>  
+      <li>O usuário pode acessar a tela de Checkout pelo botão Finalizar Compra</li> 
+    </ul><br>
+  
+   <li>Checkout
+    <ul>
+      <li>
+        Mostra os produtos adicionados ao carrinho, o usuário deve preencher com suas informações e forma de pagamento para conseguir acessar a proxima tela.           </li>  
+    </ul><br>
+  </li>
+  
+   <li>Confirmation
+    <ul>
+      <li>Mostra as informações principais da compra para a confirmação do usuário.</li>  
+    </ul><br>
+  </li>
+</ul>
 
-### `npm run build`
+## Pré Requisitos
+<ul>
+  <li>Npm</li>
+  <li>Node</li>
+  <li>React</li>
+  <li>React-thunk</li>
+  <li>React Redux</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Instalando
+Após intalar Node e Npm: 
+React<br><br>
+`npm i react`<br><br>
+Redux<br><br>
+`npm i redux`<br><br>
+Redux-Thunk<br><br>
+`npm i redux-thunk`<br><br>
