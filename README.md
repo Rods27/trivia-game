@@ -6,6 +6,10 @@
 
 Link da pasta das imagens <a href="https://github.com/Rods27/frontend-online-store/tree/master/src/img/app-image/">aqui.</a>
 
+## Teste de Velocidade pelo Google
+
+<img align ="center" src="/src/images/speed-test.png" width="1200" />
+
 ## Feedback 
 
 Ficarei bem agradecido caso queira me dar um feedback costrutivo, caso queira meus contatos estarão abaixo!
