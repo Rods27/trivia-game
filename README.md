@@ -18,6 +18,7 @@ Email: rods.leite27@gmail.com e <a href="https://linkedin.com/in/rodrigoleite27"
   <li>Os Settings ainda não foi implementado, o botão é por questão de layout</li>
   <li>A ordem das perguntas está a mesma, não tive tempo de arrumar isso</li>
   <li>Mobile não Implementado</li>
+  <li>As perguntas são pegas pela API <a href="https://opentdb.com/">opentdb</a> e a foto de perfil pelo <a href="https://pt.gravatar.com/">Gravatar</a>.</li>
 </ul>
 
 ## Funcionalidades
