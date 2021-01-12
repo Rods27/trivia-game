@@ -75,3 +75,6 @@ Redux<br><br>
 `npm i redux`<br><br>
 Redux-Thunk<br><br>
 `npm i redux-thunk`<br><br>
+
+## Link do deploy
+Teste o site <a href="https://github.com/Rods27/trivia-game" target="_blank">aqui.</a>
