@@ -77,4 +77,4 @@ Redux-Thunk<br><br>
 `npm i redux-thunk`<br><br>
 
 ## Link do deploy
-https://rods27.github.io/trivia-game/ ou teste o site <a href="https://rods27.github.io/trivia-game/" target="_blank">aqui.</a>
+https://rods27.github.io/trivia-game/
